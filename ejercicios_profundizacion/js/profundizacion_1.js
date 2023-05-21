@@ -14,6 +14,16 @@
 const numero1 = parseInt(prompt("Ingrese un número"));
 const numero2 = parseInt(prompt("Ingrese otro número"));
 
-console.log(numero1-numero2);
+if ((numero1-(numero2)) > 0) {
+    alert("El resultado es positivo");
+    console.log("El resultado es positivo");
+} else if ((numero1-(numero2)) < 0) {
+    alert("El resultado es negativo");
+    console.log("El resultado es negativo");
+} else {
+    alert("El resultado es 0");
+    console.log("El resultado es 0");
+}
 
-//alert(numero1-numero2);
+
+
